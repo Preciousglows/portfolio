@@ -1,0 +1,256 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f9faff;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    
+}
+
+.nav-bar ul li{
+    display: flex;
+    list-style: none;
+    margin: 0px 50px;
+}
+
+.nav-bar ul li:hover{
+    padding: 0px 20px;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+
+.madelyn{
+    justify-self: flex-start;
+    width: 800px;
+    margin: 0px 0px 100px 0px;
+    font-family: comforta;
+    font-size: 18px;
+   font-weight: bold;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+
+
+.header{
+    display: flex;
+}
+
+
+.header .ui-ux h4{
+    font-family: 'Nunito', sans-serif;
+    color: #fdc435;
+}
+
+.header .ui-ux h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.yellow{
+    
+    height: 690px;
+    width: 680px;
+}
+
+.image{
+   
+    height: 600px;
+    width: 660px;
+    position: absolute;
+    bottom: 9%;
+    top: 0%;
+    left: 57%;
+    z-index: -1;
+}
+
+.ui-ux{
+    
+    position: absolute;
+    margin-left: 50px;
+    width: 455px;
+}
+
+.ui-ux p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color: #828282;
+    font-size: 24px;
+    
+}
+
+.btn-project{
+    border: none;
+    border-radius: 8%;
+    background-color:#fdc435;
+    font-weight: bold;
+    color: black;
+    width: 115px;
+    height: 43px;
+}
+
+.btn-link{
+    border: 1px solid black;
+    border-radius: 8%;
+    background-color:transparent;
+    font-weight: bold;
+    color: black;
+    width: 115px;
+    height: 43px;
+    margin-left: 20px;
+}
+
+.btn-project:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px #fdc435;
+    font-weight: bold;
+}
+
+.btn-link:hover{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px #fdc435;
+    font-weight: bold;
+}
+
+#project-page h1{
+    font-size: 50px;
+}
+
+.p-head{
+    
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    padding: 0px 0px 100px 10px;
+    text-decoration: underline;
+
+}
+
+.p-one{
+    display: flex;
+    border: 1px solid white;
+    width: 1000px;
+    margin-left: 150px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.p-two{
+    display: flex;
+    border: 1px solid white;
+    width: 1000px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.p-three{
+    display: flex;
+    border: 1px solid white;
+    width: 1000px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.yogatext{
+    
+    width: 500px;
+    margin-left: 100px;
+}
+
+.secondtext{
+    
+    width: 500px;
+    margin-right: 100px;
+}
+.thirdtext{
+  
+    width: 500px;
+    margin-left: 90px;
+}
+
+#project-page button{
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+#project-page button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px #fdc435;
+    font-weight: bold;
+}
+
+#footer{
+    align-items: center;
+    padding: 50px;
+    padding-left: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.about-div{
+    display: flex;
+    
+    padding: 0px 55px;
+}
+
+.ui{
+    
+    padding: 50px;
+    width: 500px;
+}
+
+.ui p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color: #828282;
+    font-size: 24px;
+}
+
+.about-link{
+    text-decoration: underline;
+}
